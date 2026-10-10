@@ -1,6 +1,6 @@
 ## Olá, eu sou o Rafael 👋
 
-Trabalhei mais de 3 anos com operação logística (Pão de Açúcar e Mercado Livre) e hoje estou migrando para **Dados e Machine Learning**. No Mercado Livre, como Problem Solver no fulfillment, já automatizava a extração de dados do WMS com BigQuery e APIs. Agora uso essa vivência de operação para construir modelos que resolvem problemas reais de logística e e-commerce.
+Trabalhei mais de 5 anos com operação logística (Pão de Açúcar e Mercado Livre) e hoje estou migrando para **Dados e Machine Learning**. No Mercado Livre, como Problem Solver no fulfillment, já automatizava a extração de dados do WMS com BigQuery e APIs. Agora uso essa vivência de operação para construir modelos que resolvem problemas reais de logística e e-commerce.
 
 - 🎓 Cursando Análise e Desenvolvimento de Sistemas na FMU
 - 🎯 Objetivo: me tornar Engenheiro de IA
