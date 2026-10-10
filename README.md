@@ -15,7 +15,7 @@ Trabalhei mais de 5 anos com operação logística (Pão de Açúcar e Mercado L
 |---|---|---|
 | [DeliveryRisk API](https://github.com/rafaelsimoesdev/deliveryrisk-api) · [Testar ao vivo](https://deliveryrisk-api-889571326423.southamerica-east1.run.app/docs) | API em produção que prevê o risco de atraso de um pedido no momento da compra | FastAPI, Docker, GCP Cloud Run |
 | [Previsão de Atraso de Entregas](https://github.com/rafaelsimoesdev/previsao-atraso-entregas) | Modelo de classificação treinado com 96 mil pedidos reais (recall de 61%) | Python, scikit-learn, Random Forest |
-| [Previsão de Demanda Olist](https://github.com/rafaelsimoesdev/previsao-demanda-olist) | Previsão do volume diário de pedidos de um e-commerce brasileiro | Python, pandas, Machine Learning |
+| [Previsão de Demanda Olist](https://github.com/rafaelsimoesdev/previsao-demanda-olist) | Previsão do volume diário de pedidos, com validação temporal contra baselines | Python, pandas, Machine Learning |
 | [Dashboard de Logística Olist](https://github.com/rafaelsimoesdev/olist-logistica-powerbi) | Dashboard de atrasos de entrega, feito à mão e também gerado com IA | Power BI, Python |
 
 ### Stack
