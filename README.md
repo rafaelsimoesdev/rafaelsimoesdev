@@ -2,6 +2,8 @@
 
 Trabalhei mais de 5 anos com operação logística (Pão de Açúcar e Mercado Livre) e hoje estou migrando para **Dados e Machine Learning**. No Mercado Livre, como Problem Solver no fulfillment, já automatizava a extração de dados do WMS com BigQuery e APIs. Agora uso essa vivência de operação para construir modelos que resolvem problemas reais de logística e e-commerce.
 
+> 🔍 **Destaque:** antes de colocar meu modelo de atraso em produção, testei ele "treinando no passado e prevendo o futuro". Descobri que a variável mais importante (o mês da compra) só decorava o calendário dos dados, então removi essa variável e documentei os limites reais do modelo. [Ver como foi](https://github.com/rafaelsimoesdev/deliveryrisk-api#validação-no-tempo-o-que-mudou-desde-o-modelo-original)
+
 - 🎓 Cursando Análise e Desenvolvimento de Sistemas na FMU
 - 🎯 Objetivo: me tornar Engenheiro de IA
 - 📚 Estudando agora: NLP para o meu próximo projeto (classificador de reviews da Olist)
