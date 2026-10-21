@@ -6,13 +6,14 @@ Trabalhei mais de 5 anos com operação logística (Pão de Açúcar e Mercado L
 
 - 🎓 Cursando Análise e Desenvolvimento de Sistemas na FMU
 - 🎯 Objetivo: me tornar Engenheiro de IA
-- 📚 Estudando agora: NLP para o meu próximo projeto (classificador de reviews da Olist)
+- 📚 Estudando agora: redes neurais e LLMs aplicados a dados de e-commerce
 - 📍 São Paulo, Brasil · aberto a estágios e freelas na área de dados
 
 ### Projetos
 
 | Projeto | O que faz | Stack |
 |---|---|---|
+| [Classificador de Reviews Olist](https://github.com/rafaelsimoesdev/classificador-reviews-olist) · [Testar ao vivo](https://reviews-olist-api-889571326423.southamerica-east1.run.app/docs) | API que lê o comentário de um cliente e diz se a avaliação é negativa, mostrando as palavras que pesaram (encontra cerca de 95% das negativas) | NLP, scikit-learn, FastAPI, Docker, Cloud Run, GitHub Actions |
 | [DeliveryRisk API](https://github.com/rafaelsimoesdev/deliveryrisk-api) · [Testar ao vivo](https://deliveryrisk-api-889571326423.southamerica-east1.run.app/docs) | API em produção que prevê o risco de atraso de um pedido no momento da compra | FastAPI, Docker, GCP Cloud Run |
 | [Previsão de Atraso de Entregas](https://github.com/rafaelsimoesdev/previsao-atraso-entregas) | Modelo de classificação treinado com 96 mil pedidos reais (recall de 61%) | Python, scikit-learn, Random Forest |
 | [Previsão de Demanda Olist](https://github.com/rafaelsimoesdev/previsao-demanda-olist) | Previsão do volume diário de pedidos, com validação temporal contra baselines | Python, pandas, Machine Learning |
