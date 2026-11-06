@@ -1,38 +1,33 @@
-## Olá, eu sou o Rafael 👋
+# Rafael Simões
 
-Trabalhei mais de 5 anos com operação logística (Pão de Açúcar e Mercado Livre) e hoje estou migrando para **Dados e Machine Learning**. No Mercado Livre, como Problem Solver no fulfillment, já automatizava a extração de dados do WMS com BigQuery e APIs. Agora uso essa vivência de operação para construir modelos que resolvem problemas reais de logística e e-commerce.
+Trabalhei mais de 5 anos em logística, até chegar a Operador Logístico – Problem Solver no Mercado Livre, e hoje estudo ADS na FMU.  
+Agora levo essa experiência de operação para dados e IA, com o objetivo de chegar a Engenheiro de IA.
 
-> 🔍 **Destaque:** antes de colocar meu modelo de atraso em produção, testei ele "treinando no passado e prevendo o futuro". Descobri que a variável mais importante (o mês da compra) só decorava o calendário dos dados, então removi essa variável e documentei os limites reais do modelo. [Ver como foi](https://github.com/rafaelsimoesdev/deliveryrisk-api#validação-no-tempo-o-que-mudou-desde-o-modelo-original)
+## Projetos em destaque
 
-- 🎓 Cursando Análise e Desenvolvimento de Sistemas na FMU
-- 🎯 Objetivo: me tornar Engenheiro de IA
-- 📚 Estudando agora: redes neurais e LLMs aplicados a dados de e-commerce
-- 📍 São Paulo, Brasil · aberto a estágios e freelas na área de dados
+**[Torre de Controle de E-commerce com IA](https://github.com/rafaelsimoesdev/torre-controle-ecommerce-ia)**  
+Relatório diário no Telegram sem ninguém rodar nada, previsão que erra 25% menos que o baseline e assistente texto-para-SQL que acertou 25 de 25 na avaliação.  
+Detecção de anomalias sem alarme falso em 22 meses de histórico, login no Google Cloud sem chave, 45 testes e CI. Usa a base pública e sintética do Google.
 
-### Projetos
+**[Classificador de Reviews Olist](https://github.com/rafaelsimoesdev/classificador-reviews-olist)**  
+API que encontra 94,7% das avaliações negativas, com 81% de precisão, treinada com 37.380 comentários reais. [Testar ao vivo](https://reviews-olist-api-889571326423.southamerica-east1.run.app/docs)
 
-| Projeto | O que faz | Stack |
-|---|---|---|
-| [Classificador de Reviews Olist](https://github.com/rafaelsimoesdev/classificador-reviews-olist) · [Testar ao vivo](https://reviews-olist-api-889571326423.southamerica-east1.run.app/docs) | API que lê o comentário de um cliente e diz se a avaliação é negativa, mostrando as palavras que pesaram (encontra cerca de 95% das negativas) | NLP, scikit-learn, FastAPI, Docker, Cloud Run, GitHub Actions |
-| [DeliveryRisk API](https://github.com/rafaelsimoesdev/deliveryrisk-api) · [Testar ao vivo](https://deliveryrisk-api-889571326423.southamerica-east1.run.app/docs) | API em produção que prevê o risco de atraso de um pedido no momento da compra | FastAPI, Docker, GCP Cloud Run |
-| [Previsão de Atraso de Entregas](https://github.com/rafaelsimoesdev/previsao-atraso-entregas) | Modelo de classificação treinado com 96 mil pedidos reais (recall de 61%) | Python, scikit-learn, Random Forest |
-| [Previsão de Demanda Olist](https://github.com/rafaelsimoesdev/previsao-demanda-olist) | Previsão do volume diário de pedidos, com validação temporal contra baselines | Python, pandas, Machine Learning |
-| [Dashboard de Logística Olist](https://github.com/rafaelsimoesdev/olist-logistica-powerbi) | Dashboard de atrasos de entrega, feito à mão e também gerado com IA | Power BI, Python |
+**[DeliveryRisk API](https://github.com/rafaelsimoesdev/deliveryrisk-api)**  
+API que estima o risco de atraso na hora da compra. O teste no tempo mostrou que o mês só decorava o calendário, e tirei essa variável do modelo. [Testar ao vivo](https://deliveryrisk-api-889571326423.southamerica-east1.run.app/docs)
 
-### Stack
+**[Dashboard de Logística Olist](https://github.com/rafaelsimoesdev/olist-logistica-powerbi)**  
+Power BI com 96 mil pedidos reais: quando a entrega atrasa, a nota média do cliente cai de 4,29 para 2,27.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat&logo=googlebigquery&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=flat&logo=looker&logoColor=white)
+**[Previsão de Demanda Olist](https://github.com/rafaelsimoesdev/previsao-demanda-olist)**  
+Validação no tempo: o erro quase triplicou em relação à divisão aleatória e nenhum modelo bateu o baseline de 53,3 pedidos por dia. O projeto documenta o porquê, e essa lição guiou o backtest da Torre.
 
-### Contato
+**[Previsão de Atraso de Entrega](https://github.com/rafaelsimoesdev/previsao-atraso-entregas)**  
+Random Forest com 96.470 pedidos que detecta 61% dos atrasos em divisão aleatória. A revalidação no tempo está na DeliveryRisk API.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafael-sim%C3%B5es-556979239)
-[![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rafael.fnx07@gmail.com)
+## Stack
+
+SQL/BigQuery, Python, pandas, scikit-learn, LightGBM, MLflow, Power BI/DAX, Gemini, Streamlit, FastAPI, Docker, GitHub Actions, Google Cloud, Cloud Run
+
+## Contato
+
+[LinkedIn](https://www.linkedin.com/in/rafael-sim%C3%B5es-556979239) · Aberto a estágios, vagas júnior e freelas na área de dados
