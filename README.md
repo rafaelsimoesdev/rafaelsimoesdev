@@ -30,4 +30,4 @@ SQL/BigQuery, Python, pandas, scikit-learn, LightGBM, MLflow, Power BI/DAX, Gemi
 
 ## Contato
 
-[LinkedIn](https://www.linkedin.com/in/rafael-sim%C3%B5es-556979239) · Aberto a estágios, vagas júnior e freelas na área de dados
+[LinkedIn](https://www.linkedin.com/in/rafaelsimoesdev) · Aberto a estágios, vagas júnior e freelas na área de dados
